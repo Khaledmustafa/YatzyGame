@@ -6,7 +6,7 @@ Feature: Yatzy Game
       Given I Start a game of Yatzy
       When I
       Then dices should be created
-#dd
+#staging branch
 
  @throwAllDices
     Scenario: Throw all dices
