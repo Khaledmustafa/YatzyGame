@@ -8,6 +8,7 @@ public class Dice {
         //TODO code throw dice
 
         int result = random.nextInt(1-6);
+        System.out.println(result);
         return result;
     }
 
