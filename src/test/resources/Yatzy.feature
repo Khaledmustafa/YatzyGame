@@ -4,7 +4,7 @@ Feature: Yatzy Game
   @CreateDice
     Scenario: Create Dice
       Given I Start a game of Yatzy
-      When I
+      When I create a Dice
       Then dices should be created
 #staging branch commit
 
@@ -26,7 +26,7 @@ Feature: Yatzy Game
     Scenario: Save Dice
       Given It's my turn
       When I have thrown the dices atleast once
-      Then I should be able to save 1-6 dices
+      Then I should be able to save dices
 
 
  @showScore
